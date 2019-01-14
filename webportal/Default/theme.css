@@ -1,0 +1,126 @@
+body
+{
+  background-image: url(images/achtergrond.gif); /*blauw-witte achtergrond*/
+  background-repeat: repeat-x; /*herhaal enkel horizontaal*/
+  margin: 0 auto; /*verwijder marge in alle browsers*/
+  margin-top: 10px; /*bovenmarge*/
+}
+
+#body
+{
+  width: 100%; /*zet de body div over de ganse pagina*/
+}
+
+#main
+{
+  width: 600px; /*maak een constante breedte zodat alles daarbinnen niet automatisch aanpast aan browsergrootte*/
+  margin: auto; /*zonder deze marge wordt de maindiv niet gecentreerd*/
+}
+
+#header
+{ 
+  width: 100%; /*benut de volledige breedte van de maindiv*/
+  height: 100px; /*de hoogte van de header*/
+  background-image: url(images/allfinance-logo.jpg); /*het logo*/
+  background-repeat: no-repeat; /*herhaal het logo niet*/
+}
+
+#menu
+{
+  text-align: center; /*centreert de knoppen*/
+}
+
+ul
+{
+  padding: 10px; /*zorgt ervoor dat knoppen ruimte krijgen*/
+  margin: 0; /*verwijdert de marge tussen header en content*/
+  list-style: none; /*verwijdert het bolleke*/
+}
+
+.menu
+{
+  font-size: large;
+  font-weight: bold;
+}
+
+li
+{
+  display: inline; /*zet menuitems op 1 rij*/
+  margin: 5px; /*afstand tussen menuitems*/
+}
+
+li a:link,li a:visited,li a:active
+{
+  text-decoration: none; /*verwijdert de onderlijning*/
+  background-color: #2A4FA2; /*blauwe achtergrond*/
+}
+
+li a:hover
+{
+  background-color: #CBAD44; /*oranje achtergrond*/
+  color: #2A4FA2; /*blauwe text*/
+}
+
+li a
+{
+  color: #FFFFFF; /*witte text*/
+  padding: 10px; /*zorgt voor grotere knoppen*/
+}
+
+a#huidig
+{
+  background-color: #CBAD44; /*oranje achtergrond*/
+  color: #2A4FA2; /*blauwe text*/
+}
+
+#content
+{
+  background-color: #2A4FA2; /*blauwe achtergrond*/
+  padding: 10px; /*zorgt voor ruimte tussen tekst en rand*/
+}
+
+#contentbox
+{
+  background-color: #CBAD44;
+  margin: 5px;
+  padding: 10px;
+}
+
+span.droomwagen
+{
+  float: left;
+  width: 330px;
+  padding: 10px;
+  font-size: 2em;
+  text-align: center;
+}
+
+span.droomhuis
+{
+  float: right;
+  width: 330px;
+  padding: 10px;
+  font-size: 2em;
+  text-align: center;
+}
+
+span.droomvakantie
+{
+  float: left;
+  width: 280px;
+  padding: 10px;
+  font-size: 2em;
+  text-align: center;
+}
+
+div.afsluiting
+{
+  text-align: center;
+  font-size: 4em;
+  padding: 10px;
+}
+
+#footer
+{
+  text-align: center; /*centreer de footer*/
+}
