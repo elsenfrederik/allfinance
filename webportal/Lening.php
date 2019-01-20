@@ -7,28 +7,6 @@
 <meta name="keywords" content="All Finance, Kredieten, Leningen, Krediet Aanvragen, Leonardstraat 16 - Leopoldsburg, Liliane Ten Grootenhuyzen, kortlopende leningen, langlopende leningen, financieringen, leasingen, kredieten: leningen, kortlopende leningen, langlopende leningen, financieringen, leasingen, overbruggingskredieten, eigenaarskredieten, hypotheken" />
 <title>All Finance BVBA</title>
 <link href="test.css" type="text/css" rel="stylesheet"/>
-<style type="text/css">
-<!--
-.stijl1 {
-	color: #000000;
-	font-size: 20px;
-	font-style: italic;
-}
-.stijl27 {
-	font-size: 10px;
-	color: #FFFF00;
-	font-family: arial;
-	line-height: 20px;
-	letter-spacing: 0.1em;
-}
-a:hover {
-	color: #FFFF00;
-	text-decoration: none;
-}
--->
-</style>
-<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
-<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
@@ -74,7 +52,7 @@ a:active {
 </head>
 <body oncontextmenu="return false;" ondragstart="return false;" onselectstart="return false;" document.getElementById('loading').style.display = 'none'; reveal();">
     <body bgcolor="#0DA1E7" background="wb_01.gif">
-        <form id="frm1">
+        <form action="lening_submit.php" method="post">
             <table width="900" height="215%" align="center" bgcolor="#FAFBFB" bordercolor="#FAFBFB">
                 <tr>
                     <th scope="col" height="10">
